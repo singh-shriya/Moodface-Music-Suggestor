@@ -37,16 +37,6 @@ MoodFace combines computer vision and music recommendation to create a seamless 
 ---
 
 ## Project Structure
-Moodface-Music-Suggestor/
-├── app.py                    # Streamlit application entry point
-├── moodface/
-│   ├── detector.py           # Face detection module (OpenCV)
-│   ├── music_suggester.py    # Spotify API integration
-│   └── mood_model.h5         # Trained CNN model weights
-├── data/                     # FER2013 training data
-├── requirements.txt
-└── README.md
----
 
 ## Quick Start
 
@@ -60,7 +50,17 @@ streamlit run app.py
 ```
 
 App runs at `http://localhost:8501`
-
+```
+Moodface-Music-Suggestor/
+├── app.py                    # Streamlit application entry point
+├── moodface/
+│   ├── detector.py           # Face detection module (OpenCV)
+│   ├── music_suggester.py    # Spotify API integration
+│   └── mood_model.h5         # Trained CNN model weights
+├── data/                     # FER2013 training data
+├── requirements.txt
+└── README.md
+```
 ---
 
 ## Model
